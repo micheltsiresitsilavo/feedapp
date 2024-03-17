@@ -1,6 +1,6 @@
 import { proxy } from "valtio";
 import pb from "../utils/pbClient";
-import { jwtDecode } from "jwt-decode";
+import  jwtDecode  from "jwt-decode";
 import ms from "ms";
 import localforage from "localforage";
 
