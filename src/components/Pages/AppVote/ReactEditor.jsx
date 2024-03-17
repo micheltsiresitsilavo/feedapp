@@ -1,14 +1,8 @@
-import { createReactEditorJS } from "react-editor-js";
-import { EDITOR_JS_TOOLS } from "./allPlugins";
-const ReactEditorJS = createReactEditorJS();
-const ReactEditor = ({ data }) => {
+
+const ReactEditor = () => {
   return (
     <div>
-      <ReactEditorJS
-        tools={EDITOR_JS_TOOLS}
-        readOnly={true}
-        defaultValue={data}
-      />
+     
     </div>
   );
 };
