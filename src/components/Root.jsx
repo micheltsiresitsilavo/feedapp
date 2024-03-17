@@ -52,7 +52,7 @@ const Root = () => {
         <p className="text-center text-xs sm:text-sm font-medium">
           Beta version ity,{" "}
           <span className="inline-block underline">
-            mety hisy olana madininika miseho
+            mety hisy olana madininika miseho sady maro fonctionnalités mbola hampidirina
           </span>
         </p>
       </div>
