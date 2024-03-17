@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, "Helvetica Neue", Helvetica, sans-serif;
+  }
+}
+
+.codex-editor__redactor {
+  min-height: calc(100% / 80%) !important;
+  height: auto !important;
+  padding-bottom: 2% !important;
+  padding-top: 1% !important;
+}
+
+.uppy-Dashboard-inner {
+  background-color: #1f2937 !important;
+}
+
+[data-uppy-theme="dark"] .uppy-Dashboard-AddFiles {
+  border-color: #84cc16 !important;
+}
+.uppy-DashboardTab-inner {
+  background-color: #f1f5f9 !important;
+}
+.uppy-Dashboard-inner {
+  border: 1px solid #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-Dashboard-browse {
+  color: #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-DashboardTab-iconMyDevice {
+  color: #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-Dashboard-dropFilesHereHint {
+  border-color: #84cc16;
+  color: #bbb;
+}
+
+[data-uppy-theme="dark"] .uppy-Dashboard-Item-action {
+  color: #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-DashboardContent-bar {
+  background-color: #1f2937;
+  border-bottom: 1px solid #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-DashboardContent-back,
+[data-uppy-theme="dark"] .uppy-DashboardContent-save {
+  color: #84cc16;
+}
+
+[data-uppy-theme="dark"] .uppy-DashboardContent-addMore {
+  color: #84cc16;
+}
+
+[data-uppy-theme="dark"]
+  .uppy-StatusBar.is-waiting
+  .uppy-StatusBar-actionBtn--upload {
+  background-color: #84cc16;
+}
+
+a.uppy-Dashboard-poweredBy {
+  display: none;
+}
